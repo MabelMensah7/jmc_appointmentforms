@@ -9,7 +9,4 @@ templates = Jinja2Templates(directory="templates")
 
 @router.get("/book", response_class=HTMLResponse)
 async def book_appointment(request: Request):
-    """
-    Serve the appointment booking page with Calendly iframe
-    """
     return templates.TemplateResponse("appointments.html", {"request": request})
