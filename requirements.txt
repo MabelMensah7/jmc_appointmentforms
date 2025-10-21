@@ -1,5 +1,3 @@
-fastapi[standard]
-uvicorn[standard]
+fastapi
+uvicorn
 jinja2
-python-dotenv
-fastapi-mail
